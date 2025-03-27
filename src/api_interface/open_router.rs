@@ -150,7 +150,7 @@ impl OpenRouterExecutor {
 
         let response = self
             .client
-            .post("https://openrouter.ai/api/v1/chat/completions")
+            .post("https://api.vikey.ai/v1/chat/completions")
             .headers(headers)
             .json(&request)
             .send()
